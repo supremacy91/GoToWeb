@@ -1695,8 +1695,28 @@
   </div>
   <script type="text/javascript"><!--
 
+      $('select[name=\'config_theme\']').on('change', function() {
+          $.ajax({
+              url: 'index.php?route=setting/setting/theme&token=<?php echo $token; ?>&theme=' + this.value,
+              dataType: 'html',
+              beforeSend: function() {
+                  $('select[name=\'config_theme\']').after(' <i class="fa fa-circle-o-notch fa-spin"></i>');
+              },
+              complete: function() {
+                  $('.fa-spin').remove();
+              },
+              success: function(html) {
+                  $('#theme').attr('src', html);
+              },
+              error: function(xhr, ajaxOptions, thrownError) {
+                  alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+              }
+          });
+      });
 
-$('select[name=\'config_theme\']').trigger('change');
+
+
+      $('select[name=\'config_theme\']').trigger('change');
 //--></script>
   <script type="text/javascript"><!--
 $('select[name=\'config_country_id\']').on('change', function() {
