@@ -16,9 +16,9 @@ class ControllerCommonLogin extends Controller {
 			
 			if (isset($this->request->post['redirect']) && (strpos($this->request->post['redirect'], HTTP_SERVER) === 0 || strpos($this->request->post['redirect'], HTTPS_SERVER) === 0)) {
 				$this->response->redirect($this->request->post['redirect'] . '&token=' . $this->session->data['token']);
-			} else {
-				$this->response->redirect($this->url->link('common/dashboard', 'token=' . $this->session->data['token'], true));
-			}
+			} else if ($this->user->userGroupId($this->request->post['username'], html_entity_decode($this->request->post['password'], ENT_QUOTES, 'UTF-8')) == 1) {
+                $this->response->redirect($this->url->link('common/dashboard', 'token=' . $this->session->data['token'], true));
+            }
 		}
 
 		$data['heading_title'] = $this->language->get('heading_title');
@@ -93,9 +93,10 @@ class ControllerCommonLogin extends Controller {
 	}
 
 	protected function validate() {
-		if (!isset($this->request->post['username']) || !isset($this->request->post['password']) || !$this->user->login($this->request->post['username'], html_entity_decode($this->request->post['password'], ENT_QUOTES, 'UTF-8'))) {
-			$this->error['warning'] = $this->language->get('error_login');
-		}
+        if (!isset($this->request->post['username']) || !isset($this->request->post['password']) || !$this->user->login($this->request->post['username'], html_entity_decode($this->request->post['password'], ENT_QUOTES, 'UTF-8'))
+            || ($this->user->userGroupId($this->request->post['username'], html_entity_decode($this->request->post['password'], ENT_QUOTES, 'UTF-8')) == 11)) {
+            $this->error['warning'] = $this->language->get('error_login');
+        }
 
 		return !$this->error;
 	}

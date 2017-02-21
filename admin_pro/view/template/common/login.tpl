@@ -19,7 +19,7 @@
               <button type="button" class="close" data-dismiss="alert">&times;</button>
             </div>
             <?php } ?>
-            <form action="<?php echo $action; ?>" method="post" enctype="multipart/form-data">asdfsdfsdfsd
+            <form action="<?php echo $action; ?>" method="post" enctype="multipart/form-data">
               <div class="form-group">
                 <label for="input-username"><?php echo $entry_username; ?></label>
                 <div class="input-group"><span class="input-group-addon"><i class="fa fa-user"></i></span>
