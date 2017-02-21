@@ -33,46 +33,46 @@
           <ul class="nav nav-tabs">
             <li class="active"><a href="#tab-general" data-toggle="tab"><?php echo $tab_general; ?></a></li>
             <li><a href="#tab-store" data-toggle="tab"><?php echo $tab_store; ?></a></li>
-            <li><a href="#tab-local" data-toggle="tab"><?php echo $tab_local; ?></a></li>
-            <li><a href="#tab-option" data-toggle="tab"><?php echo $tab_option; ?></a></li>
+           <!-- <li><a href="#tab-local" data-toggle="tab"><?php echo $tab_local; ?></a></li>
+            <li><a href="#tab-option" data-toggle="tab"><?php echo $tab_option; ?></a></li>-->
             <li><a href="#tab-image" data-toggle="tab"><?php echo $tab_image; ?></a></li>
-            <li><a href="#tab-ftp" data-toggle="tab"><?php echo $tab_ftp; ?></a></li>
-            <li><a href="#tab-mail" data-toggle="tab"><?php echo $tab_mail; ?></a></li>
-            <li><a href="#tab-server" data-toggle="tab"><?php echo $tab_server; ?></a></li>
-            <li><a href="#tab-sms" data-toggle="tab"><?php echo $tab_sms; ?></a></li>
-          </ul>
-          <div class="tab-content">
-            <div class="tab-pane active" id="tab-general">
-              <ul class="nav nav-tabs" id="content-language">
-                <?php foreach ($languages as $language) { ?>
-                <li><a href="#content-language<?php echo $language['language_id']; ?>" data-toggle="tab"><img src="language/<?php echo $language['code']; ?>/<?php echo $language['code']; ?>.png" title="<?php echo $language['name']; ?>" /> <?php echo $language['name']; ?></a></li>
-                <?php } ?>
-              </ul>
-              <div class="tab-content">
-                <?php foreach ($languages as $language) { ?>
-                <div class="tab-pane" id="content-language<?php echo $language['language_id']; ?>">
-                  <div class="form-group">
-                    <label class="col-sm-2 control-label" for="input-meta-title[<?php echo $language['language_id']; ?>]"><?php echo $entry_meta_title; ?></label>
-                    <div class="col-sm-10">
-                      <input type="text" name="config_langdata[<?php echo $language['language_id']; ?>][meta_title]" value="<?php echo isset($config_langdata[$language['language_id']]) ? $config_langdata[$language['language_id']]['meta_title'] : ''; ?>" placeholder="<?php echo $entry_meta_title; ?>" id="input-meta-title[<?php echo $language['language_id']; ?>]" class="form-control" />
-                      <?php if (isset($error_meta_title[$language['language_id']])) { ?>
-                      <div class="text-danger"><?php echo $error_meta_title[$language['language_id']]; ?></div>
-                      <?php } ?>
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label class="col-sm-2 control-label" for="input-meta-description<?php echo $language['language_id']; ?>"><?php echo $entry_meta_description; ?></label>
-                    <div class="col-sm-10">
-                      <textarea name="config_langdata[<?php echo $language['language_id']; ?>][meta_description]" rows="5" placeholder="<?php echo $entry_meta_description; ?>" id="input-meta-description<?php echo $language['language_id']; ?>" class="form-control"><?php echo isset($config_langdata[$language['language_id']]) ? $config_langdata[$language['language_id']]['meta_description'] : ''; ?></textarea>
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label class="col-sm-2 control-label" for="input-meta-keyword<?php echo $language['language_id']; ?>"><?php echo $entry_meta_keyword; ?></label>
-                    <div class="col-sm-10">
-                      <textarea name="config_langdata[<?php echo $language['language_id']; ?>][meta_keyword]" rows="5" placeholder="<?php echo $entry_meta_keyword; ?>" id="input-meta-keyword<?php echo $language['language_id']; ?>" class="form-control"><?php echo isset($config_langdata[$language['language_id']]) ? $config_langdata[$language['language_id']]['meta_keyword'] : ''; ?></textarea>
-                    </div>
-                  </div>
-                </div><!-- </div class="tab-pane" id="store-language<?php echo $language['language_id']; ?>">  -->
+            <!-- <li><a href="#tab-ftp" data-toggle="tab"><?php echo $tab_ftp; ?></a></li>  
+           <li><a href="#tab-mail" data-toggle="tab"><?php echo $tab_mail; ?></a></li>
+           <li><a href="#tab-server" data-toggle="tab"><?php echo $tab_server; ?></a></li>
+           <li><a href="#tab-sms" data-toggle="tab"><?php echo $tab_sms; ?></a></li>-->
+         </ul>
+         <div class="tab-content">
+           <div class="tab-pane active" id="tab-general">
+             <ul class="nav nav-tabs" id="content-language">
+               <?php foreach ($languages as $language) { ?>
+               <li><a href="#content-language<?php echo $language['language_id']; ?>" data-toggle="tab"><img src="language/<?php echo $language['code']; ?>/<?php echo $language['code']; ?>.png" title="<?php echo $language['name']; ?>" /> <?php echo $language['name']; ?></a></li>
+               <?php } ?>
+             </ul>
+             <div class="tab-content">
+               <?php foreach ($languages as $language) { ?>
+               <div class="tab-pane" id="content-language<?php echo $language['language_id']; ?>">
+                 <div class="form-group">
+                   <label class="col-sm-2 control-label" for="input-meta-title[<?php echo $language['language_id']; ?>]"><?php echo $entry_meta_title; ?></label>
+                   <div class="col-sm-10">
+                     <input type="text" name="config_langdata[<?php echo $language['language_id']; ?>][meta_title]" value="<?php echo isset($config_langdata[$language['language_id']]) ? $config_langdata[$language['language_id']]['meta_title'] : ''; ?>" placeholder="<?php echo $entry_meta_title; ?>" id="input-meta-title[<?php echo $language['language_id']; ?>]" class="form-control" />
+                     <?php if (isset($error_meta_title[$language['language_id']])) { ?>
+                     <div class="text-danger"><?php echo $error_meta_title[$language['language_id']]; ?></div>
+                     <?php } ?>
+                   </div>
+                 </div>
+                 <div class="form-group">
+                   <label class="col-sm-2 control-label" for="input-meta-description<?php echo $language['language_id']; ?>"><?php echo $entry_meta_description; ?></label>
+                   <div class="col-sm-10">
+                     <textarea name="config_langdata[<?php echo $language['language_id']; ?>][meta_description]" rows="5" placeholder="<?php echo $entry_meta_description; ?>" id="input-meta-description<?php echo $language['language_id']; ?>" class="form-control"><?php echo isset($config_langdata[$language['language_id']]) ? $config_langdata[$language['language_id']]['meta_description'] : ''; ?></textarea>
+                   </div>
+                 </div>
+                 <div class="form-group">
+                   <label class="col-sm-2 control-label" for="input-meta-keyword<?php echo $language['language_id']; ?>"><?php echo $entry_meta_keyword; ?></label>
+                   <div class="col-sm-10">
+                     <textarea name="config_langdata[<?php echo $language['language_id']; ?>][meta_keyword]" rows="5" placeholder="<?php echo $entry_meta_keyword; ?>" id="input-meta-keyword<?php echo $language['language_id']; ?>" class="form-control"><?php echo isset($config_langdata[$language['language_id']]) ? $config_langdata[$language['language_id']]['meta_keyword'] : ''; ?></textarea>
+                   </div>
+                 </div>
+               </div><!-- </div class="tab-pane" id="store-language<?php echo $language['language_id']; ?>">  -->
                 <?php } ?>
               </div>
               <div class="form-group">
@@ -1694,24 +1694,7 @@
     </div>
   </div>
   <script type="text/javascript"><!--
-$('select[name=\'config_theme\']').on('change', function() {
-	$.ajax({
-		url: 'index.php?route=setting/setting/theme&token=<?php echo $token; ?>&theme=' + this.value,
-		dataType: 'html',
-		beforeSend: function() {
-			$('select[name=\'config_theme\']').after(' <i class="fa fa-circle-o-notch fa-spin"></i>');
-		},
-		complete: function() {
-			$('.fa-spin').remove();
-		},
-		success: function(html) {
-			$('#theme').attr('src', html);
-		},
-		error: function(xhr, ajaxOptions, thrownError) {
-			alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
-		}
-	});
-});
+
 
 $('select[name=\'config_theme\']').trigger('change');
 //--></script>
