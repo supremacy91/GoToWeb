@@ -1,0 +1,2 @@
+2017-02-27 8:50:27 - PHP Warning:  getimagesize(): Filename cannot be empty in /var/www/html/opencart/catalog/view/theme/porto/template/extension/module/advanced_grid/products/index13.tpl on line 13
+2017-02-27 8:50:27 - PHP Warning:  getimagesize(): Filename cannot be empty in /var/www/html/opencart/catalog/view/theme/porto/template/new_elements/product.tpl on line 12
