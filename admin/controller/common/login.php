@@ -92,11 +92,14 @@ class ControllerCommonLogin extends Controller {
 		$this->response->setOutput($this->load->view('common/login', $data));
 	}
 
-	protected function validate() {
-		if (!isset($this->request->post['username']) || !isset($this->request->post['password']) || !$this->user->login($this->request->post['username'], html_entity_decode($this->request->post['password'], ENT_QUOTES, 'UTF-8'))) {
-			$this->error['warning'] = $this->language->get('error_login');
-		}
+    protected function validate() {
+        if (!isset($this->request->post['username']) || !isset($this->request->post['password']) || !$this->user->login($this->request->post['username'], html_entity_decode($this->request->post['password'], ENT_QUOTES, 'UTF-8'))
+            || $this->user->getUserGroup($this->request->post['username'], html_entity_decode($this->request->post['password'], ENT_QUOTES, 'UTF-8')) != 1) {
+            $this->error['warning'] = $this->language->get('error_login');
+        }
 
-		return !$this->error;
-	}
+        return !$this->error;
+    }
 }
+
+
