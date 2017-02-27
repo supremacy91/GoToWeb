@@ -48,3 +48,51 @@
 2017-02-27 11:31:14 - PHP Warning:  getimagesize(): Filename cannot be empty in /var/www/html/opencart/catalog/view/theme/porto/template/extension/module/advanced_grid/products/default.tpl on line 17
 2017-02-27 11:31:14 - PHP Warning:  getimagesize(): Filename cannot be empty in /var/www/html/opencart/catalog/view/theme/porto/template/extension/module/advanced_grid/products/index13.tpl on line 13
 2017-02-27 11:31:14 - PHP Warning:  getimagesize(): Filename cannot be empty in /var/www/html/opencart/catalog/view/theme/porto/template/new_elements/product.tpl on line 12
+2017-02-27 14:17:48 - PHP Warning:  getimagesize(): Filename cannot be empty in /var/www/html/opencart/catalog/view/theme/porto/template/extension/module/advanced_grid/products/index13.tpl on line 13
+2017-02-27 14:17:48 - PHP Warning:  getimagesize(): Filename cannot be empty in /var/www/html/opencart/catalog/view/theme/porto/template/new_elements/product.tpl on line 12
+2017-02-27 14:19:19 - PHP Notice:  Undefined variable: header in /var/www/html/opencart/admin/view/template/useradmin/useradmin.tpl on line 1
+2017-02-27 14:20:10 - PHP Notice:  Undefined variable: header in /var/www/html/opencart/admin/view/template/useradmin/useradmin.tpl on line 1
+2017-02-27 14:20:10 - PHP Notice:  Undefined variable: column_left in /var/www/html/opencart/admin/view/template/useradmin/useradmin.tpl on line 1
+2017-02-27 14:20:10 - PHP Notice:  Undefined variable: footer in /var/www/html/opencart/admin/view/template/useradmin/useradmin.tpl on line 9
+2017-02-27 14:23:08 - PHP Notice:  Undefined variable: header in /var/www/html/opencart/admin/view/template/useradmin/useradmin.tpl on line 1
+2017-02-27 14:23:08 - PHP Notice:  Undefined variable: column_left in /var/www/html/opencart/admin/view/template/useradmin/useradmin.tpl on line 1
+2017-02-27 14:23:08 - PHP Notice:  Undefined variable: footer in /var/www/html/opencart/admin/view/template/useradmin/useradmin.tpl on line 9
+2017-02-27 14:23:10 - PHP Notice:  Undefined variable: header in /var/www/html/opencart/admin/view/template/useradmin/useradmin.tpl on line 1
+2017-02-27 14:23:10 - PHP Notice:  Undefined variable: column_left in /var/www/html/opencart/admin/view/template/useradmin/useradmin.tpl on line 1
+2017-02-27 14:23:10 - PHP Notice:  Undefined variable: footer in /var/www/html/opencart/admin/view/template/useradmin/useradmin.tpl on line 9
+2017-02-27 14:23:11 - PHP Notice:  Undefined variable: header in /var/www/html/opencart/admin/view/template/useradmin/useradmin.tpl on line 1
+2017-02-27 14:23:11 - PHP Notice:  Undefined variable: column_left in /var/www/html/opencart/admin/view/template/useradmin/useradmin.tpl on line 1
+2017-02-27 14:23:11 - PHP Notice:  Undefined variable: footer in /var/www/html/opencart/admin/view/template/useradmin/useradmin.tpl on line 9
+2017-02-27 14:23:11 - PHP Notice:  Undefined variable: header in /var/www/html/opencart/admin/view/template/useradmin/useradmin.tpl on line 1
+2017-02-27 14:23:11 - PHP Notice:  Undefined variable: column_left in /var/www/html/opencart/admin/view/template/useradmin/useradmin.tpl on line 1
+2017-02-27 14:23:11 - PHP Notice:  Undefined variable: footer in /var/www/html/opencart/admin/view/template/useradmin/useradmin.tpl on line 9
+2017-02-27 14:23:11 - PHP Notice:  Undefined variable: header in /var/www/html/opencart/admin/view/template/useradmin/useradmin.tpl on line 1
+2017-02-27 14:23:11 - PHP Notice:  Undefined variable: column_left in /var/www/html/opencart/admin/view/template/useradmin/useradmin.tpl on line 1
+2017-02-27 14:23:11 - PHP Notice:  Undefined variable: footer in /var/www/html/opencart/admin/view/template/useradmin/useradmin.tpl on line 9
+2017-02-27 14:23:28 - PHP Notice:  Undefined variable: column_left in /var/www/html/opencart/admin/view/template/useradmin/useradmin.tpl on line 1
+2017-02-27 14:26:22 - PHP Notice:  Undefined variable: column_left in /var/www/html/opencart/admin/view/template/useradmin/useradmin.tpl on line 1
+2017-02-27 15:13:15 - PHP Warning:  getimagesize(): Filename cannot be empty in /var/www/html/opencart/catalog/view/theme/porto/template/extension/module/advanced_grid/products/index13.tpl on line 13
+2017-02-27 15:13:15 - PHP Warning:  getimagesize(): Filename cannot be empty in /var/www/html/opencart/catalog/view/theme/porto/template/new_elements/product.tpl on line 12
+2017-02-27 15:26:52 - PHP Warning:  getimagesize(): Filename cannot be empty in /var/www/html/opencart/catalog/view/theme/porto/template/new_elements/product.tpl on line 12
+2017-02-27 15:30:01 - PHP Warning:  getimagesize(): Filename cannot be empty in /var/www/html/opencart/catalog/view/theme/porto/template/extension/module/advanced_grid/products/index13.tpl on line 13
+2017-02-27 15:30:01 - PHP Warning:  getimagesize(): Filename cannot be empty in /var/www/html/opencart/catalog/view/theme/porto/template/new_elements/product.tpl on line 12
+2017-02-27 15:30:39 - PHP Warning:  getimagesize(): Filename cannot be empty in /var/www/html/opencart/catalog/view/theme/porto/template/extension/module/advanced_grid/products/default.tpl on line 17
+2017-02-27 15:30:40 - PHP Warning:  getimagesize(): Filename cannot be empty in /var/www/html/opencart/catalog/view/theme/porto/template/extension/module/advanced_grid/products/index13.tpl on line 13
+2017-02-27 15:30:40 - PHP Warning:  getimagesize(): Filename cannot be empty in /var/www/html/opencart/catalog/view/theme/porto/template/new_elements/product.tpl on line 12
+2017-02-27 15:31:10 - PHP Notice:  Undefined variable: data in /var/www/html/opencart/catalog/controller/common/home.php on line 12
+2017-02-27 15:31:10 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/opencart/system/engine/loader.php on line 83
+2017-02-27 15:31:10 - PHP Notice:  Undefined variable: header in /var/www/html/opencart/catalog/view/theme/porto/template/common/home.tpl on line 1
+2017-02-27 15:31:10 - PHP Notice:  Undefined variable: column_left in /var/www/html/opencart/catalog/view/theme/porto/template/common/home.tpl on line 5
+2017-02-27 15:31:10 - PHP Notice:  Undefined variable: column_right in /var/www/html/opencart/catalog/view/theme/porto/template/common/home.tpl on line 6
+2017-02-27 15:35:16 - PHP Warning:  getimagesize(): Filename cannot be empty in /var/www/html/opencart/catalog/view/theme/porto/template/extension/module/advanced_grid/products/index13.tpl on line 13
+2017-02-27 15:35:16 - PHP Warning:  getimagesize(): Filename cannot be empty in /var/www/html/opencart/catalog/view/theme/porto/template/new_elements/product.tpl on line 12
+2017-02-27 15:36:30 - PHP Warning:  getimagesize(): Filename cannot be empty in /var/www/html/opencart/catalog/view/theme/porto/template/extension/module/advanced_grid/products/default.tpl on line 17
+2017-02-27 15:36:30 - PHP Warning:  getimagesize(): Filename cannot be empty in /var/www/html/opencart/catalog/view/theme/porto/template/extension/module/advanced_grid/products/index13.tpl on line 13
+2017-02-27 15:36:30 - PHP Warning:  getimagesize(): Filename cannot be empty in /var/www/html/opencart/catalog/view/theme/porto/template/new_elements/product.tpl on line 12
+2017-02-27 15:37:04 - PHP Warning:  getimagesize(): Filename cannot be empty in /var/www/html/opencart/catalog/view/theme/porto/template/extension/module/advanced_grid/products/default.tpl on line 17
+2017-02-27 15:37:28 - PHP Warning:  getimagesize(): Filename cannot be empty in /var/www/html/opencart/catalog/view/theme/porto/template/extension/module/advanced_grid/products/index13.tpl on line 13
+2017-02-27 15:37:28 - PHP Warning:  getimagesize(): Filename cannot be empty in /var/www/html/opencart/catalog/view/theme/porto/template/new_elements/product.tpl on line 12
+2017-02-27 15:44:36 - PHP Warning:  getimagesize(): Filename cannot be empty in /var/www/html/opencart/catalog/view/theme/porto/template/new_elements/product.tpl on line 12
+2017-02-27 15:54:24 - PHP Warning:  getimagesize(): Filename cannot be empty in /var/www/html/opencart/catalog/view/theme/porto/template/extension/module/advanced_grid/products/index13.tpl on line 13
+2017-02-27 15:54:24 - PHP Warning:  getimagesize(): Filename cannot be empty in /var/www/html/opencart/catalog/view/theme/porto/template/new_elements/product.tpl on line 12
+2017-02-27 15:55:28 - PHP Warning:  getimagesize(): Filename cannot be empty in /var/www/html/opencart/catalog/view/theme/porto/template/new_elements/product.tpl on line 12

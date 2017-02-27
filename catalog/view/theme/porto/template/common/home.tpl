@@ -1,4 +1,4 @@
-<?php echo $header; 
+<?php echo $header;
 $theme_options = $registry->get('theme_options');
 $config = $registry->get('config'); ?>
 <?php $grid_center = 12; 
@@ -41,7 +41,7 @@ $modules = new Modules($registry); ?>
 					</div>
 				</div>
 				<?php } ?>
-				
+
 				<?php 
 				$preface_fullwidth = $modules->getModules('preface_fullwidth');
 				if( count($preface_fullwidth) ) { ?>
@@ -55,24 +55,24 @@ $modules = new Modules($registry); ?>
 					</div>
 				</div>
 				<?php } ?>
-				
-				<div class="row">				
+
+				<div class="row">
 					<?php $columnleft = $modules->getModules('column_left'); ?>
 					<?php $grid_center = 12; if( count($columnleft) ) { $grid_center = 9; } ?>
 					<div class="col-md-<?php echo $grid_center; ?> align-right">
-						<?php 
+						<?php
 						$content_big_column = $modules->getModules('content_big_column');
-						if( count($content_big_column) ) { 
+						if( count($content_big_column) ) {
 							foreach ($content_big_column as $module) {
 								echo $module;
 							}
 						} ?>
-						
+
 						<div class="row">
-							<?php 
-							$grid_content_top = 12; 
+							<?php
+							$grid_content_top = 12;
 							$grid_content_right = 3;
-							$column_right = $modules->getModules('column_right'); 
+							$column_right = $modules->getModules('column_right');
 							if( count($column_right) ) {
 								if($grid_center == 9) {
 									$grid_content_top = 8;
@@ -84,16 +84,16 @@ $modules = new Modules($registry); ?>
 							}
 							?>
 							<div class="col-md-<?php echo $grid_content_top; ?>">
-								<?php 
+								<?php
 								$content_top = $modules->getModules('content_top');
-								if( count($content_top) ) { 
+								if( count($content_top) ) {
 									foreach ($content_top as $module) {
 										echo $module;
 									}
 								} ?>
 							</div>
-							
-							<?php if( count($column_right) ) { ?> 
+
+							<?php if( count($column_right) ) { ?>
 							<div class="col-md-<?php echo $grid_content_right; ?>">
 								<?php foreach ($column_right as $module) {
 									echo $module;
@@ -102,7 +102,7 @@ $modules = new Modules($registry); ?>
 							<?php } ?>
 						</div>
 					</div>
-					
+
 					<?php if( count($columnleft) ) { ?>
 					<div class="col-md-3" id="column_left">
 						<?php
@@ -113,10 +113,10 @@ $modules = new Modules($registry); ?>
 					</div>
 					<?php } ?>
 				</div>
-				
-				<div class="row">	
-					<div class="col-sm-12">	
-						<?php 
+
+				<div class="row">
+					<div class="col-sm-12">
+						<?php
 						$contentbottom = $modules->getModules('content_bottom');
 						if( count($contentbottom) ) { ?>
 							<?php
