@@ -233,3 +233,29 @@
 2017-02-27 17:05:30 - PHP Notice:  Undefined variable: text_select in /var/www/html/opencart/admin/view/template/useradmin/useradmin.tpl on line 78
 2017-02-27 17:05:30 - PHP Notice:  Undefined variable: config_zone_id in /var/www/html/opencart/admin/view/template/useradmin/useradmin.tpl on line 84
 2017-02-27 17:05:30 - PHP Notice:  Undefined variable: text_none in /var/www/html/opencart/admin/view/template/useradmin/useradmin.tpl on line 91
+2017-02-28 8:34:54 - PHP Warning:  getimagesize(): Filename cannot be empty in /var/www/html/opencart/catalog/view/theme/porto/template/extension/module/advanced_grid/products/index13.tpl on line 13
+2017-02-28 10:02:59 - PHP Notice:  Use of undefined constant REV_DIR_CONFIG - assumed 'REV_DIR_CONFIG' in /var/www/html/opencart/admin/controller/useradmin/useradmin.php on line 1380
+2017-02-28 10:15:16 - PHP Notice:  Undefined variable: rev_content in /var/www/html/opencart/admin/view/template/useradmin/useradmin.tpl on line 66
+2017-02-28 10:23:44 - PHP Notice:  Use of undefined constant REV_DIR_CONFIG - assumed 'REV_DIR_CONFIG' in /var/www/html/opencart/admin/controller/useradmin/useradmin.php on line 1383
+2017-02-28 11:06:19 - PHP Notice:  Undefined variable: rev_content in /var/www/html/opencart/admin/view/template/useradmin/useradmin.tpl on line 68
+2017-02-28 11:06:53 - PHP Notice:  Undefined variable: rev_content in /var/www/html/opencart/admin/view/template/useradmin/useradmin.tpl on line 68
+2017-02-28 11:07:36 - PHP Notice:  Undefined variable: rev_content in /var/www/html/opencart/admin/view/template/useradmin/useradmin.tpl on line 68
+2017-02-28 11:07:50 - PHP Notice:  Undefined variable: rev_content in /var/www/html/opencart/admin/view/template/useradmin/useradmin.tpl on line 68
+2017-02-28 11:08:05 - PHP Notice:  Undefined variable: rev_content in /var/www/html/opencart/admin/view/template/useradmin/useradmin.tpl on line 68
+2017-02-28 11:08:08 - PHP Notice:  Undefined variable: rev_content in /var/www/html/opencart/admin/view/template/useradmin/useradmin.tpl on line 68
+2017-02-28 11:08:12 - PHP Notice:  Undefined variable: rev_content in /var/www/html/opencart/admin/view/template/useradmin/useradmin.tpl on line 68
+2017-02-28 11:08:28 - PHP Notice:  Undefined variable: rev_content in /var/www/html/opencart/admin/view/template/useradmin/useradmin.tpl on line 68
+2017-02-28 11:08:39 - PHP Notice:  Undefined variable: rev_content in /var/www/html/opencart/admin/view/template/useradmin/useradmin.tpl on line 68
+2017-02-28 11:08:46 - PHP Notice:  Undefined variable: rev_content in /var/www/html/opencart/admin/view/template/useradmin/useradmin.tpl on line 68
+2017-02-28 11:12:16 - PHP Notice:  Undefined variable: rev_content in /var/www/html/opencart/admin/view/template/useradmin/useradmin.tpl on line 68
+2017-02-28 11:38:32 - PHP Notice:  Undefined variable: button_save in /var/www/html/opencart/admin/view/template/useradmin/slider.tpl on line 7
+2017-02-28 11:38:32 - PHP Notice:  Undefined variable: cancel in /var/www/html/opencart/admin/view/template/useradmin/slider.tpl on line 8
+2017-02-28 11:38:32 - PHP Notice:  Undefined variable: button_cancel in /var/www/html/opencart/admin/view/template/useradmin/slider.tpl on line 8
+2017-02-28 11:38:32 - PHP Notice:  Undefined variable: heading_title in /var/www/html/opencart/admin/view/template/useradmin/slider.tpl on line 9
+2017-02-28 11:38:32 - PHP Notice:  Undefined variable: breadcrumbs in /var/www/html/opencart/admin/view/template/useradmin/slider.tpl on line 11
+2017-02-28 11:38:32 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/opencart/admin/view/template/useradmin/slider.tpl on line 11
+2017-02-28 11:38:32 - PHP Notice:  Undefined variable: error_warning in /var/www/html/opencart/admin/view/template/useradmin/slider.tpl on line 18
+2017-02-28 11:39:35 - PHP Notice:  Undefined variable: breadcrumbs in /var/www/html/opencart/admin/view/template/useradmin/slider.tpl on line 11
+2017-02-28 11:39:35 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/opencart/admin/view/template/useradmin/slider.tpl on line 11
+2017-02-28 11:39:35 - PHP Notice:  Undefined variable: error_warning in /var/www/html/opencart/admin/view/template/useradmin/slider.tpl on line 18
+2017-02-28 11:45:45 - PHP Notice:  Undefined variable: rev_content in /var/www/html/opencart/admin/view/template/useradmin/useradmin.tpl on line 68

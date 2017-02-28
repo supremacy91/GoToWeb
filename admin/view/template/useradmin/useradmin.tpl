@@ -21,12 +21,12 @@
 
 <div class="container" style="margin: 30px;">
     <h1>You can redact your options here</h1>
-    <button type="button" class="btn btn-primary btn-lg myButton" >
-        <div class="col-sm-10"><a href="" id="thumb-logo" data-toggle="image" class="img-thumbnail" ></a>
-            <input type="hidden" name="config_logo" value="<?php echo $config_logo; ?>" id="input-logo"/>
-        </div>
+    <button type="button" class="btn btn-primary btn-lg myButton" ><div style="margin-top: 30px;">Логотип</div>
+        <div style="width: 100%; height: 100%;  position: relative; top: -54px;"><a href="" id="thumb-logo" data-toggle="image" class="img-thumbnail" style="width: 100%; height: 100%; opacity: 0;"></a></div>
     </button>
-    <button type="button" class="btn btn-primary btn-lg myButton">Redact something</button>
+    <button type="button" class="btn btn-primary btn-lg myButton">
+        <div style="width: 100%; height: 100%;  position: relative; top: -54px;"><a href="index.php?route=useradmin/slider" style="width: 100%; height: 100%;   ">asdasdasdsad</a>
+    </button>
     <button type="button" class="btn btn-primary btn-lg myButton">Redact something</button>
     <button type="button" class="btn btn-primary btn-lg myButton">Redact something</button>
     <button type="button" class="btn btn-primary btn-lg myButton">Redact something</button>
@@ -42,6 +42,44 @@
 </div>
 
 
+<div id="content">
+    <div class="page-header">
+        <div class="container-fluid">
+            <div class="pull-right">
+                <button type="submit" form="form-latest" data-toggle="tooltip" title="<?php echo $button_save; ?>" class="btn btn-primary"><i class="fa fa-save"></i></button>
+                <a href="<?php echo $cancel; ?>" data-toggle="tooltip" title="<?php echo $button_cancel; ?>" class="btn btn-default"><i class="fa fa-reply"></i></a></div>
+            <h1><?php echo $heading_title; ?></h1>
+            <ul class="breadcrumb">
+                <?php foreach ($breadcrumbs as $breadcrumb) { ?>
+                <li><a href="<?php echo $breadcrumb['href']; ?>"><?php echo $breadcrumb['text']; ?></a></li>
+                <?php } ?>
+            </ul>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <?php if ($error_warning) { ?>
+        <div class="alert alert-danger"><i class="fa fa-exclamation-circle"></i> <?php echo $error_warning; ?>
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+        </div>
+        <?php } ?>
+        <div class="box ">
+            <div class="rev_content content">
+                <!-- content here -->
+                <?php echo $rev_content; ?>
+            </div>
+        </div>
+    </div>
+</div>
+<style type="text/css">
+    .rev_content .content.wrap {
+        margin: 0px 0px 0 0px;
+    }
+</style>
+<script type="text/javascript">
+    jQuery(document).ready(function($){
+        $(this.body).addClass('rev_backoffice wp-core-ui');
+    });
+</script>
 
 <script type="text/javascript"><!--
     $('select[name=\'config_theme\']').on('change', function() {

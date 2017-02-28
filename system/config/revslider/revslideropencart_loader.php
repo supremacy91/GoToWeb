@@ -135,7 +135,7 @@ function sds_get_oc_token(){
 }
 function sds_get_current_lang(){
     if(is_admin()){
-        $ssn = ControllerExtensionModulerevslideropencart::$revSession;
+        $ssn = z::$revSession;
     }else{
         $ssn = ControllerExtensionModuleRevolutionSlider::$revSession;
     }
